@@ -1,4 +1,4 @@
-let image = require('../pic.jpg');
+let image = require('../assets/pic.jpg');
 
 const Card = () => {
   return (

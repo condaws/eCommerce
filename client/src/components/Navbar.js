@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <nav className="bg-gray-200 shadow">
@@ -6,13 +8,13 @@ const Navbar = () => {
       </div>
       <div className='flex space-x-12 pb-2 justify-center'>
         <div>
-          Home
+          <Link to='/'>Home</Link>
         </div>
         <div>
-          Mens
+          <Link to='/mens'>Mens</Link>
         </div>
         <div>
-          Womens
+          <Link to='/womens'>Womens</Link>
         </div>
       </div>
     </nav>
